@@ -1,0 +1,238 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: khaki;
+}
+
+#arxiki {
+	background: url(imgs/navid-bazari-59QskosS444-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	padding-top: 2em; /*For the navbar overlapping with content */
+}
+
+.navbar {
+	font-size: 1.2em;
+}
+
+#mainnavbar .navbar-brand {
+	font-size: 1.25em;
+}
+
+#mainnavbar .nav-link,
+#mainnavbar .dropdown-item {
+	color: white;
+}
+
+#mainnavbar .nav-link:hover,
+#mainnavbar .dropdown-item:hover {
+	color: seagreen;
+}
+
+#mainnavbar .dropdown-menu,
+#mainnavbar .dropdown-item:hover {
+	background-color: #cfb479;
+}
+
+.scrolled {
+	background: #cfb479;
+	transition: background 500ms;
+}
+
+.mobilemenu {
+	background-color: #cfb479; /* when cellphone menu button is clicked */
+}
+
+.dropdown_items,
+#mainnavbar .dropdown-menu {
+	text-align: center; /* Dropdown cellphone menu items */
+}
+/* end of navbar */
+
+
+
+#contentarxiki {
+	text-align: center;
+	padding-top: 2%; /* some distance from the navbar*/
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+	margin-bottom: 2em; /* some distance between the text content and the card gallery */
+}
+
+#contentarxiki h1,
+h3 {
+	color: white;
+}
+
+#contentarxiki h1 {
+	font-weight: 700%;
+	font-size: 4em;
+}
+
+#contentarxiki hr {
+	margin-top: 1.5em;
+	margin-bottom: 1.4em;
+	width: 35%;
+	border-top: 1px solid #f8f8f8;
+	max-width: 90%; /* for mobiles*/
+}
+
+#gallery {
+	text-align: center;
+}
+
+.card {
+	border: 0em; /* no whitelines around the cards */
+}
+
+.card-img-top {
+	width: 100%;
+	height: 15em;
+	object-fit: cover; /* crop img */
+}
+
+.card-title {
+	font-size: 1.25em;
+}
+
+.card-body {
+	font-size: 1em;
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 5px rgba(0, 0, 0, 0.1), 0px 7px 5px rgba(0, 0, 0, 0.1);
+}
+/* end of landing page */
+
+/* facility */
+
+#farmgallery h2 {
+	text-decoration-line: underline;
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 5px rgba(0, 0, 0, 0.1), 0px 7px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption {
+	text-shadow: 0px 0px 5px rgba(0, 0, 0), 0px 1px 5px rgba(0, 0, 0), 0px 2px 5px rgba(0, 0, 0),
+		0px 3px 5px rgba(0, 0, 0); /* making the text readable from the slides */
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 30rem;
+	object-fit: cover; /* crop img */
+}
+/* end of facility */
+
+hr {
+	margin-top: 3rem; /* some distance between sections */
+	margin-bottom: 3rem;
+	width: 50%;
+	border-top: 4px solid #ffffff;
+	max-width: 90%; /* for mobiles*/
+}
+
+/* products */
+
+#products {
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 5px rgba(0, 0, 0, 0.1), 0px 7px 5px rgba(0, 0, 0, 0.1); /* text more pretty */
+}
+
+#headingproducts h1 {
+	font-weight: 100;
+}
+
+#headingproducts h4 {
+	font-weight: 100;
+	margin-top: 1rem;
+}
+
+#product:hover a {
+	color: rgb(4, 124, 4);
+}
+
+#contentarxiki a,
+#product a,
+#contactus a {
+	color: #212529; /* color of links */
+}
+
+.textproducts p {
+	font-size: 1.22rem;
+	line-height: 2;
+}
+
+.contentproducts {
+	margin-top: 1.5rem;
+	margin-bottom: 1rem; /* some space between the products */
+}
+
+/* end of products */
+
+/* contact */
+
+#contactus {
+	margin-top: 3rem; /* some space */
+	background: url(imgs/contactimg/stari\ field.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 1em;
+	padding-bottom: 1rem;
+}
+
+#contactus ul {
+	list-style: none;
+}
+
+#map {
+	position: relative;
+	padding-bottom: 75%; /* This is the aspect ratio */
+	height: 0;
+	overflow: hidden;
+}
+
+.map iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* footer */
+
+.footer-basic-centered {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 1.5rem sans-serif;
+	padding: 1em;
+}
+
+.footer-basic-centered .footer-company-motto {
+	color: #8d9093;
+	font-size: 1.4rem;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-basic-centered .footer-company-name {
+	color: #8f9296;
+	font-size: 1.4rem;
+	padding: 0.4em 0em;
+	margin-top: 0;
+	margin-bottom: 0.4rem;
+}
+
+.footer-basic-centered .powered-by,
+.powered-by a {
+	color: #8d9093;
+	font-size: 1rem;
+	margin: 0em;
+}
+
+.footer-basic-centered #disclaimer,
+#disclaimer a {
+	color: #8d9093;
+	font-size: 1rem;
+}
